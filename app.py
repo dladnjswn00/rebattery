@@ -6,7 +6,10 @@ import streamlit as st
 from sklearn.ensemble import RandomForestRegressor
 
 st.set_page_config(page_title='Re:Battery | 배터리 건강검진', page_icon='🔋', layout='centered')
-st.markdown('''<style>
+st.markdown("""
+배터리의 남은 용량뿐만 아니라
+저항과 발열 특성을 함께 평가합니다.
+""")
 .stApp {background:#101e2c;color:#eef5fa;}
 [data-testid="stHeader"] {background:#101e2c;}
 h1,h2,h3,p,label,[data-testid="stMetricValue"],[data-testid="stMetricLabel"] {color:#eef5fa!important;}
